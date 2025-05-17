@@ -1,0 +1,22 @@
+# ───────────────────────
+# Jupyter/IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Excel, CSV, JSON, 압축파일
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.json
+
+# 특정 폴더 (데이터 저장소)
+119신고접수 건수/
+day_weather/
+20250514*/   # 다운로드 시각 폴더 같은 경우
+
+# 기타 결과물
+*.parquet
+*.feather
+*.pkl
+*.h5
